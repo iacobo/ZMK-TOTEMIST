@@ -25,7 +25,6 @@
         QWERTY {
             bindings = <&tog 3>;
             key-positions = <33 36>;
-            layers = <0>;
         };
     };
 
