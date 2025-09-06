@@ -1,67 +1,93 @@
 parse_config:
-  # ZMK-specific keycode display map with common aliases
   zmk_keycode_map:
-    # whitespace / enter / delete / escape
+    # arrows (include tokens and common variants)
+    UP: "↑"
+    DOWN: "↓"
+    LEFT: "←"
+    RIGHT: "→"
+    KC_UP: "↑"
+    KC_DOWN: "↓"
+    KC_LEFT: "←"
+    KC_RIGHT: "→"
+    ARROW_UP: "↑"
+    ARROW_DOWN: "↓"
+    ARROW_LEFT: "←"
+    ARROW_RIGHT: "→"
+
+    # volume
+    VOL_UP: "🕪"
+    VOLDN: "🕩"
+    VOL_DN: "🕩"
+    VOL_DOWN: "🕩"
+    VOLUME_UP: "🕪"
+    VOLUME_DOWN: "🕩"
+    KC_VOL_UP: "🕪"
+    KC_VOL_DOWN: "🕩"
+
+    # brightness
+    BRI_UP: "🔆"
+    BRI_DN: "🔅"
+    BRI_UPPER: "🔆"
+    BRIGHTNESS_UP: "🔆"
+    BRIGHTNESS_DOWN: "🔅"
+    KC_BRI_UP: "🔆"
+    KC_BRI_DOWN: "🔅"
+    KC_BRIGHTNESS_UP: "🔆"
+    KC_BRIGHTNESS_DOWN: "🔅"
+
+    # (include previous mappings you have — ensure you merge, not overwrite)
     SPACE: "␣"
     SPC: "␣"
     ENTER: "↵"
     RET: "↵"
-    ENT: "↵"
-    RETURN: "↵"
     TAB: "⇥"
     DEL: "⌦"
-    DELETE: "⌦"
     BSPC: "⌫"
-    BSP: "⌫"
     BACKSPACE: "⌫"
     ESC: "⎋"
-    ESCAPE: "⎋"
-
-    # explicit modifier token display (for h: fields if written as e.g. LCTRL)
     LCTRL: "^"
     RCTRL: "^"
-    LEFT_CTRL: "^"
-    RIGHT_CTRL: "^"
-
     LGUI: "❖"
     RGUI: "❖"
-    LEFT_GUI: "❖"
-    RIGHT_GUI: "❖"
-
     LALT: "⎇"
     RALT: "⎇"
-    LEFT_ALT: "⎇"
-    RIGHT_ALT: "⎇"
-
     LSHIFT: "⇧"
     RSHIFT: "⇧"
-    LEFT_SHIFT: "⇧"
-    RIGHT_SHIFT: "⇧"
 
-  # raw_binding_map covers raw binding strings that might appear
   raw_binding_map:
+    # arrows
+    "UP": "↑"
+    "DOWN": "↓"
+    "LEFT": "←"
+    "RIGHT": "→"
+    "KC_UP": "↑"
+    "KC_DOWN": "↓"
+    "KC_LEFT": "←"
+    "KC_RIGHT": "→"
+
+    # volume
+    "VOL UP": "🕪"
+    "VOL_UP": "🕪"
+    "VOL DN": "🕩"
+    "VOL_DN": "🕩"
+    "VOLUME UP": "🕪"
+    "VOLUME DOWN": "🕩"
+
+    # brightness
+    "BRI UP": "🔆"
+    "BRI_UP": "🔆"
+    "BRI DN": "🔅"
+    "BRI_DN": "🔅"
+    "BRIGHTNESS UP": "🔆"
+    "BRIGHTNESS DOWN": "🔅"
+
+    # (keep previous raw mappings)
     "SPACE": "␣"
     "SPC": "␣"
     "ENTER": "↵"
     "RET": "↵"
-    "ENT": "↵"
     "TAB": "⇥"
     "DEL": "⌦"
-    "DELETE": "⌦"
     "BSPC": "⌫"
-    "BSP": "⌫"
     "BACKSPACE": "⌫"
     "ESC": "⎋"
-    "ESCAPE": "⎋"
-
-modifier_fn_map:
-  left_ctrl: "^"
-  right_ctrl: "^"
-  left_shift: "⇧"
-  right_shift: "⇧"
-  left_alt: "⎇"
-  right_alt: "⎇"
-  left_gui: "❖"
-  right_gui: "❖"
-  keycode_combiner: "{mods}+{key}"
-  mod_combiner: "{mod_1}+{mod_2}"
