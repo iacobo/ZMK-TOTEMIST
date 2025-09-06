@@ -1,0 +1,165 @@
+layout: {zmk_keyboard: totem}
+layers:
+  BASE:
+  - ''''
+  - ','
+  - .
+  - P
+  - Y
+  - F
+  - G
+  - C
+  - R
+  - L
+  - {t: A, h: LCTRL}
+  - {t: O, h: LGUI}
+  - {t: E, h: LALT}
+  - {t: U, h: LSHFT}
+  - I
+  - D
+  - {t: H, h: RSHFT}
+  - {t: T, h: RALT}
+  - {t: N, h: RGUI}
+  - {t: S, h: RCTRL}
+  - ''
+  - ;
+  - Q
+  - J
+  - K
+  - X
+  - B
+  - M
+  - W
+  - V
+  - Z
+  - ''
+  - ''
+  - {t: BSPC, h: SYM}
+  - {t: TAB, h: NAV}
+  - {t: RET, h: NAV}
+  - {t: SPACE, h: SYM}
+  - ''
+  SYM:
+  - '`'
+  - '!'
+  - '?'
+  - '['
+  - ']'
+  - '*'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - {t: '@', h: LCTRL}
+  - _
+  - ^
+  - {t: (, h: LSHIFT}
+  - )
+  - '='
+  - {t: '4', h: RSHIFT}
+  - '5'
+  - '6'
+  - {t: '-', h: RCTRL}
+  - {t: ▽, type: trans}
+  - '%'
+  - '|'
+  - '&'
+  - '#'
+  - $
+  - '|'
+  - '1'
+  - '2'
+  - '3'
+  - /
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  NAV:
+  - ''
+  - F7
+  - F8
+  - F9
+  - F12
+  - VOL DN
+  - VOL UP
+  - UP
+  - ''
+  - ''
+  - LCTRL
+  - F4
+  - {t: F5, h: LALT}
+  - F6
+  - F11
+  - ''
+  - LEFT
+  - DOWN
+  - RIGHT
+  - RCTRL
+  - {t: ▽, type: trans}
+  - ''
+  - F1
+  - F2
+  - F3
+  - F10
+  - BRI DN
+  - BRI UP
+  - ''
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  QWERTY:
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - ;
+  - {t: ▽, type: trans}
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+combos:
+- p: [0, 1]
+  k: ESC
+- p: [9, 8]
+  k: DEL
+- p: [33, 36]
+  k: {t: QWERTY, h: toggle}
