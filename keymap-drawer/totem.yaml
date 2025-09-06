@@ -34,10 +34,10 @@ layers:
   - Z
   - ''
   - ''
-  - {t: BSPC, h: SYM}
+  - {t: BSPC, h: '&lt 1'}
   - {t: TAB, h: NAV}
   - {t: RET, h: NAV}
-  - {t: SPACE, h: SYM}
+  - {t: SPACE, h: '&lt 1'}
   - ''
   SYM:
   - '`'
@@ -73,7 +73,7 @@ layers:
   - /
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -159,7 +159,9 @@ layers:
 combos:
 - p: [0, 1]
   k: ESC
+  l: [BASE]
 - p: [9, 8]
   k: DEL
+  l: [BASE]
 - p: [33, 36]
   k: {t: QWERTY, h: toggle}
