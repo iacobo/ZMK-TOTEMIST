@@ -10,9 +10,9 @@ A Dvorak layout for the 3x5 [Totemist - Executive Edition](https://ergomech.stor
 
 Layer |       |
 ------|-------
-**Dvorak** | Homerow mod keys for `^` `❖` `⎇` `⇧` <br> `⌫` `⇥` and `⮐` `␣` under thumbkeys <br> `⎋` and `⌦` chorded on top left/right pairs <br> Ambidextrous layer shift keys for **Sym/Num** and **Fn** layers
+**Dvorak** | Homerow mod keys for `⌃` `⌘` `⎇` `⇧` <br> `⌫` `⇥` and `⮐` `␣` under thumbkeys <br> `⎋` and `⌦` chorded on top left/right pairs <br> Ambidextrous layer shift keys for **Sym/Num** and **Fn** layers
 **Symbols \| Numpad** | Numpad on RH <br> Symbol pairs on LH `[]` `()` `#$` `!?` `_^` `\|&` `+-` `\/` <br> `-` `/` in same relative pinky position as on Dvorak standard layout
-**Fn keys \| DPad** | Fn keys on LH <br> DPad on RH homerow base <br> 🕩/🕪 🔅/🔆 above/below DPad
+**Fn keys \| DPad** | Fn keys on LH <br> DPad on RH homerow base <br> `🔉🔊` `🔅🔆` above/below DPad
 **QWERTY/Gaming** | 
 
 ![Totemist](keymap-drawer/totem.svg)
