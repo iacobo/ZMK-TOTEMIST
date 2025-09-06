@@ -1,9 +1,9 @@
 layout: {zmk_keyboard: totem}
 layers:
   BASE:
-  - APOS
-  - COMMA
-  - PERIOD
+  - ''''
+  - ','
+  - .
   - P
   - Y
   - F
@@ -11,18 +11,18 @@ layers:
   - C
   - R
   - L
-  - {t: A, h: ^}
-  - {t: O, h: ❖}
+  - {t: A, h: ⌃}
+  - {t: O, h: ⌘}
   - {t: E, h: ⎇}
-  - {t: U, h: LSHFT}
+  - {t: U, h: ⇧}
   - I
   - D
-  - {t: H, h: RSHFT}
-  - {t: T, h: ⎇}
-  - {t: N, h: ❖}
-  - {t: S, h: ^}
+  - {t: H, h: ⇧}
+  - {t: T, h: ⌥}
+  - {t: N, h: ⌘}
+  - {t: S, h: ⌃}
   - ''
-  - SEMI
+  - ;
   - Q
   - J
   - K
@@ -40,37 +40,37 @@ layers:
   - {t: ␣, h: SYM}
   - ''
   SYM:
-  - GRAVE
-  - EXCL
-  - QMARK
-  - LBKT
-  - RBKT
-  - ASTRK
+  - '`'
+  - '!'
+  - '?'
+  - '['
+  - ']'
+  - '*'
   - '7'
   - '8'
   - '9'
   - '0'
-  - {t: AT, h: ^}
-  - UNDER
-  - CARET
-  - {t: LPAR, h: ⇧}
-  - RPAR
-  - EQUAL
+  - {t: '@', h: ⌃}
+  - _
+  - ^
+  - {t: (, h: ⇧}
+  - )
+  - '='
   - {t: '4', h: ⇧}
   - '5'
   - '6'
-  - {t: MINUS, h: ^}
+  - {t: '-', h: ⌃}
   - {t: ▽, type: trans}
-  - PRCNT
-  - PIPE2
-  - AMPS
-  - NUHS
-  - DLLR
-  - NON US BSLH
+  - '%'
+  - '|'
+  - '&'
+  - '#'
+  - $
+  - '|'
   - '1'
   - '2'
   - '3'
-  - FSLH
+  - /
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
@@ -84,21 +84,21 @@ layers:
   - F8
   - F9
   - F12
-  - VOL DN
-  - VOL UP
-  - ↑
+  - 🕩
+  - 🕪
+  - 🞁
   - ''
   - ''
-  - ^
+  - ⌃
   - F4
   - {t: F5, h: ⎇}
   - F6
   - F11
   - ''
-  - ←
-  - ↓
-  - →
-  - ^
+  - 🞀
+  - 🞃
+  - 🞂
+  - ⌃
   - {t: ▽, type: trans}
   - ''
   - F1
@@ -106,7 +106,7 @@ layers:
   - F3
   - F10
   - BRI DN
-  - BRI UP
+  - 🔆
   - ''
   - ''
   - ''
@@ -137,7 +137,7 @@ layers:
   - J
   - K
   - L
-  - SEMI
+  - ;
   - {t: ▽, type: trans}
   - Z
   - X
@@ -146,9 +146,9 @@ layers:
   - B
   - N
   - M
-  - COMMA
-  - DOT
-  - FSLH
+  - ','
+  - .
+  - /
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
