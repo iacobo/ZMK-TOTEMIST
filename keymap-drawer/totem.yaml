@@ -165,3 +165,4 @@ combos:
   l: [BASE]
 - p: [33, 36]
   k: {t: QWERTY, h: toggle}
+  l: [BASE]
