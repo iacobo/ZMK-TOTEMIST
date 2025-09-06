@@ -34,10 +34,10 @@ layers:
   - Z
   - ''
   - ''
-  - {t: BSPC, h: '&lt 1'}
+  - {t: BSPC, h: SYM}
   - {t: TAB, h: NAV}
   - {t: RET, h: NAV}
-  - {t: SPACE, h: '&lt 1'}
+  - {t: SPACE, h: SYM}
   - ''
   SYM:
   - '`'
@@ -73,7 +73,7 @@ layers:
   - /
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
