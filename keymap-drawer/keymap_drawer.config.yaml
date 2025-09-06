@@ -1,0 +1,67 @@
+parse_config:
+  # ZMK-specific keycode display map with common aliases
+  zmk_keycode_map:
+    # whitespace / enter / delete / escape
+    SPACE: "␣"
+    SPC: "␣"
+    ENTER: "↵"
+    RET: "↵"
+    ENT: "↵"
+    RETURN: "↵"
+    TAB: "⇥"
+    DEL: "⌦"
+    DELETE: "⌦"
+    BSPC: "⌫"
+    BSP: "⌫"
+    BACKSPACE: "⌫"
+    ESC: "⎋"
+    ESCAPE: "⎋"
+
+    # explicit modifier token display (for h: fields if written as e.g. LCTRL)
+    LCTRL: "^"
+    RCTRL: "^"
+    LEFT_CTRL: "^"
+    RIGHT_CTRL: "^"
+
+    LGUI: "❖"
+    RGUI: "❖"
+    LEFT_GUI: "❖"
+    RIGHT_GUI: "❖"
+
+    LALT: "⎇"
+    RALT: "⎇"
+    LEFT_ALT: "⎇"
+    RIGHT_ALT: "⎇"
+
+    LSHIFT: "⇧"
+    RSHIFT: "⇧"
+    LEFT_SHIFT: "⇧"
+    RIGHT_SHIFT: "⇧"
+
+  # raw_binding_map covers raw binding strings that might appear
+  raw_binding_map:
+    "SPACE": "␣"
+    "SPC": "␣"
+    "ENTER": "↵"
+    "RET": "↵"
+    "ENT": "↵"
+    "TAB": "⇥"
+    "DEL": "⌦"
+    "DELETE": "⌦"
+    "BSPC": "⌫"
+    "BSP": "⌫"
+    "BACKSPACE": "⌫"
+    "ESC": "⎋"
+    "ESCAPE": "⎋"
+
+modifier_fn_map:
+  left_ctrl: "^"
+  right_ctrl: "^"
+  left_shift: "⇧"
+  right_shift: "⇧"
+  left_alt: "⎇"
+  right_alt: "⎇"
+  left_gui: "❖"
+  right_gui: "❖"
+  keycode_combiner: "{mods}+{key}"
+  mod_combiner: "{mod_1}+{mod_2}"
