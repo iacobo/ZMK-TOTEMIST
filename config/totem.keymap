@@ -6,6 +6,8 @@
 #define NAV     2
 #define QWERTY  3
 
+&lt { hold-trigger-on-release; };
+
 / {
     combos {
         compatible = "zmk,combos";
