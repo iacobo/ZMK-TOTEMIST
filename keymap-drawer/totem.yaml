@@ -11,16 +11,16 @@ layers:
   - C
   - R
   - L
-  - {t: A, h: LCTRL}
-  - {t: O, h: LGUI}
-  - {t: E, h: LALT}
-  - {t: U, h: LSHFT}
+  - {t: A, h: ⌃}
+  - {t: O, h: ⌘}
+  - {t: E, h: ⎇}
+  - {t: U, h: ⇧}
   - I
   - D
-  - {t: H, h: RSHFT}
-  - {t: T, h: RALT}
-  - {t: N, h: RGUI}
-  - {t: S, h: RCTRL}
+  - {t: H, h: ⇧}
+  - {t: T, h: ⌥}
+  - {t: N, h: ⌘}
+  - {t: S, h: ⌃}
   - ''
   - ;
   - Q
@@ -34,10 +34,10 @@ layers:
   - Z
   - ''
   - ''
-  - {t: BSPC, h: SYM}
-  - {t: TAB, h: NAV}
-  - {t: RET, h: NAV}
-  - {t: SPACE, h: SYM}
+  - {t: ⌫, h: SYM}
+  - {t: ⇥, h: NAV}
+  - {t: ↵, h: NAV}
+  - {t: ␣, h: SYM}
   - ''
   SYM:
   - '`'
@@ -50,16 +50,16 @@ layers:
   - '8'
   - '9'
   - '0'
-  - {t: '@', h: LCTRL}
+  - {t: '@', h: ⌃}
   - _
   - ^
-  - {t: (, h: LSHIFT}
+  - {t: (, h: ⇧}
   - )
   - '='
-  - {t: '4', h: RSHIFT}
+  - {t: '4', h: ⇧}
   - '5'
   - '6'
-  - {t: '-', h: RCTRL}
+  - {t: '-', h: ⌃}
   - {t: ▽, type: trans}
   - '%'
   - '|'
@@ -84,21 +84,21 @@ layers:
   - F8
   - F9
   - F12
-  - VOL DN
-  - VOL UP
-  - UP
+  - 🔉
+  - 🔊
+  - 🞁
   - ''
   - ''
-  - LCTRL
+  - ⌃
   - F4
-  - {t: F5, h: LALT}
+  - {t: F5, h: ⎇}
   - F6
   - F11
   - ''
-  - LEFT
-  - DOWN
-  - RIGHT
-  - RCTRL
+  - 🞀
+  - 🞃
+  - 🞂
+  - ⌃
   - {t: ▽, type: trans}
   - ''
   - F1
@@ -106,7 +106,7 @@ layers:
   - F3
   - F10
   - BRI DN
-  - BRI UP
+  - 🔆
   - ''
   - ''
   - ''
@@ -158,10 +158,10 @@ layers:
   - {t: ▽, type: trans}
 combos:
 - p: [0, 1]
-  k: ESC
+  k: ⎋
   l: [BASE]
 - p: [9, 8]
-  k: DEL
+  k: ⌦
   l: [BASE]
 - p: [33, 36]
   k: {t: QWERTY, h: toggle}
