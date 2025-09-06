@@ -36,7 +36,7 @@ layers:
   - ''
   - {t: ⌫, h: SYM}
   - {t: ⇥, h: NAV}
-  - {t: ↵, h: NAV}
+  - {t: ↩, h: NAV}
   - {t: ␣, h: SYM}
   - ''
   SYM:

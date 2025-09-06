@@ -44,8 +44,8 @@ parse_config:
     # misc
     SPACE: "␣"
     SPC: "␣"
-    ENTER: "↵"
-    RET: "↵"
+    ENTER: "↩"
+    RET: "↩"
     TAB: "⇥"
     DEL: "⌦"
     BSPC: "⌫"
