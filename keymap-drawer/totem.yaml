@@ -1,9 +1,9 @@
 layout: {zmk_keyboard: totem}
 layers:
   BASE:
-  - ''''
-  - ','
-  - .
+  - APOS
+  - COMMA
+  - PERIOD
   - P
   - Y
   - F
@@ -11,18 +11,18 @@ layers:
   - C
   - R
   - L
-  - {t: A, h: LCTRL}
-  - {t: O, h: LGUI}
-  - {t: E, h: LALT}
+  - {t: A, h: ^}
+  - {t: O, h: ❖}
+  - {t: E, h: ⎇}
   - {t: U, h: LSHFT}
   - I
   - D
   - {t: H, h: RSHFT}
-  - {t: T, h: RALT}
-  - {t: N, h: RGUI}
-  - {t: S, h: RCTRL}
+  - {t: T, h: ⎇}
+  - {t: N, h: ❖}
+  - {t: S, h: ^}
   - ''
-  - ;
+  - SEMI
   - Q
   - J
   - K
@@ -34,43 +34,43 @@ layers:
   - Z
   - ''
   - ''
-  - {t: BSPC, h: SYM}
-  - {t: TAB, h: NAV}
-  - {t: RET, h: NAV}
-  - {t: SPACE, h: SYM}
+  - {t: ⌫, h: SYM}
+  - {t: ⇥, h: NAV}
+  - {t: ↵, h: NAV}
+  - {t: ␣, h: SYM}
   - ''
   SYM:
-  - '`'
-  - '!'
-  - '?'
-  - '['
-  - ']'
-  - '*'
+  - GRAVE
+  - EXCL
+  - QMARK
+  - LBKT
+  - RBKT
+  - ASTRK
   - '7'
   - '8'
   - '9'
   - '0'
-  - {t: '@', h: LCTRL}
-  - _
-  - ^
-  - {t: (, h: LSHIFT}
-  - )
-  - '='
-  - {t: '4', h: RSHIFT}
+  - {t: AT, h: ^}
+  - UNDER
+  - CARET
+  - {t: LPAR, h: ⇧}
+  - RPAR
+  - EQUAL
+  - {t: '4', h: ⇧}
   - '5'
   - '6'
-  - {t: '-', h: RCTRL}
+  - {t: MINUS, h: ^}
   - {t: ▽, type: trans}
-  - '%'
-  - '|'
-  - '&'
-  - '#'
-  - $
-  - '|'
+  - PRCNT
+  - PIPE2
+  - AMPS
+  - NUHS
+  - DLLR
+  - NON US BSLH
   - '1'
   - '2'
   - '3'
-  - /
+  - FSLH
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
@@ -86,19 +86,19 @@ layers:
   - F12
   - VOL DN
   - VOL UP
-  - UP
+  - ↑
   - ''
   - ''
-  - LCTRL
+  - ^
   - F4
-  - {t: F5, h: LALT}
+  - {t: F5, h: ⎇}
   - F6
   - F11
   - ''
-  - LEFT
-  - DOWN
-  - RIGHT
-  - RCTRL
+  - ←
+  - ↓
+  - →
+  - ^
   - {t: ▽, type: trans}
   - ''
   - F1
@@ -137,7 +137,7 @@ layers:
   - J
   - K
   - L
-  - ;
+  - SEMI
   - {t: ▽, type: trans}
   - Z
   - X
@@ -146,9 +146,9 @@ layers:
   - B
   - N
   - M
-  - ','
-  - .
-  - /
+  - COMMA
+  - DOT
+  - FSLH
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -158,10 +158,10 @@ layers:
   - {t: ▽, type: trans}
 combos:
 - p: [0, 1]
-  k: ESC
+  k: ⎋
   l: [BASE]
 - p: [9, 8]
-  k: DEL
+  k: ⌦
   l: [BASE]
 - p: [33, 36]
   k: {t: QWERTY, h: toggle}
