@@ -35,7 +35,7 @@ parse_config:
     BRIGHTNESS_UP: "🔆"
     BRIGHTNESS_DOWN: "🔅"
     C_BRI_UP: "🔆"
-    C_BRI_DOWN: "🔅"
+    C_BRI_DN: "🔅"
     KC_BRI_UP: "🔆"
     KC_BRI_DN: "🔅"
     KC_BRIGHTNESS_UP: "🔆"
